@@ -1,0 +1,43 @@
+```html
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>工人进场签字</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #007aff;
+        }
+        #signatureCanvas {
+            border: 1px solid #000;
+            cursor: crosshair;
+        }
+        #buttons {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>进场须知</h1>
+    <p>请仔细阅读以下须知：</p >
+    <p>1. 确保所有个人防护装备完好。</p >
+    <p>2. 请遵守现场安全规定。</p >
+    <p>3. 如有疑问，请及时向现场管理人员询问。</p >
+    <p>4. 其他相关信息...</p >
+
+    <h2>请在下方签字：</h2>
+    <canvas id="signatureCanvas" width="300" height="150"></canvas>
+    <div id="buttons">
+        <button id="clearButton">清空签名</button>
+        <button id="submitButton">提交签名</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+```
